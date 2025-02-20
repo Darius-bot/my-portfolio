@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .image {
+            margin-right: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+        }
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Introduction to HTML, First HTML Code, HTML – Tags, Elements, Attributes, Headings, Paragraphs, Image, Links, Tables, Forms.</h1>
+    
+    <p>If target="_blank", the link will open in a new browser window or tab.</p>
+    <a href="https://www.facebook.com" target="_blank">Visit Facebook</a>
+
+    <div class="container">
+        <div class="image">
+            <img src="Cat.jpg" alt="Person Image" width="200"> 
+        </div>
+        <div>
+            <table border="0">
+                <tr>
+                    <td><strong>Person 1</strong></td>
+                    <td></td>
+                    <td><strong>Person 2</strong></td>
+                </tr>
+                <tr>
+                    <td>Max</td>
+                    <td></td>
+                    <td>Ria</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td></td>
+                    <td>14</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="Adam"><br><br> 
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Cobb"><br><br> 
+    </form>
+
+</body>
+</html>
